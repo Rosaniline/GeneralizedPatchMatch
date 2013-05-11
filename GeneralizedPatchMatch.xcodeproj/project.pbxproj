@@ -27,6 +27,7 @@
 		26366E79173CE3D500D0AB18 /* libopencv_ts.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26366E67173CE3D500D0AB18 /* libopencv_ts.2.4.5.dylib */; };
 		26366E7A173CE3D500D0AB18 /* libopencv_video.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26366E68173CE3D500D0AB18 /* libopencv_video.2.4.5.dylib */; };
 		26366E7B173CE3D500D0AB18 /* libopencv_videostab.2.4.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26366E69173CE3D500D0AB18 /* libopencv_videostab.2.4.5.dylib */; };
+		263C9EFC173DF86C00930883 /* offsetElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 263C9EFA173DF86C00930883 /* offsetElement.cpp */; };
 		267054B1173CE43500DE510A /* RosaniDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267054AA173CE43500DE510A /* RosaniDisplay.cpp */; };
 		267054B2173CE43500DE510A /* RosaniTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267054AC173CE43500DE510A /* RosaniTools.cpp */; };
 		267054B3173CE43500DE510A /* RosaniPatchTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267054AD173CE43500DE510A /* RosaniPatchTools.cpp */; };
@@ -70,6 +71,8 @@
 		26366E67173CE3D500D0AB18 /* libopencv_ts.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ts.2.4.5.dylib; path = /opt/local/lib/libopencv_ts.2.4.5.dylib; sourceTree = "<absolute>"; };
 		26366E68173CE3D500D0AB18 /* libopencv_video.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.5.dylib; path = /opt/local/lib/libopencv_video.2.4.5.dylib; sourceTree = "<absolute>"; };
 		26366E69173CE3D500D0AB18 /* libopencv_videostab.2.4.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.5.dylib; path = /opt/local/lib/libopencv_videostab.2.4.5.dylib; sourceTree = "<absolute>"; };
+		263C9EFA173DF86C00930883 /* offsetElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = offsetElement.cpp; sourceTree = "<group>"; };
+		263C9EFB173DF86C00930883 /* offsetElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsetElement.h; sourceTree = "<group>"; };
 		267054A6173CE43500DE510A /* RosaniDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDisplay.h; path = ../../../Rosani.Lib/RosaniDisplay.h; sourceTree = "<group>"; };
 		267054A7173CE43500DE510A /* Rosaniline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rosaniline.h; path = ../../../Rosani.Lib/Rosaniline.h; sourceTree = "<group>"; };
 		267054A8173CE43500DE510A /* RosaniDataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RosaniDataStructure.h; path = ../../../Rosani.Lib/RosaniDataStructure.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 		267054B0173CE43500DE510A /* RosaniDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RosaniDraw.cpp; path = ../../../Rosani.Lib/RosaniDraw.cpp; sourceTree = "<group>"; };
 		267054B6173CE44400DE510A /* GeneralizedPatchMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeneralizedPatchMatch.cpp; sourceTree = "<group>"; };
 		267054B7173CE44400DE510A /* GeneralizedPatchMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralizedPatchMatch.h; sourceTree = "<group>"; };
+		269193B0173E0B99001029C7 /* sunflower1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower1.jpg; sourceTree = "<group>"; };
+		269193B1173E0B99001029C7 /* sunflower2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunflower2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +143,10 @@
 				26366E4E173CE37C00D0AB18 /* main.cpp */,
 				267054B7173CE44400DE510A /* GeneralizedPatchMatch.h */,
 				267054B6173CE44400DE510A /* GeneralizedPatchMatch.cpp */,
+				263C9EFB173DF86C00930883 /* offsetElement.h */,
+				263C9EFA173DF86C00930883 /* offsetElement.cpp */,
+				269193B0173E0B99001029C7 /* sunflower1.jpg */,
+				269193B1173E0B99001029C7 /* sunflower2.jpg */,
 				26366E50173CE37C00D0AB18 /* GeneralizedPatchMatch.1 */,
 			);
 			path = GeneralizedPatchMatch;
@@ -173,12 +182,12 @@
 			children = (
 				267054A6173CE43500DE510A /* RosaniDisplay.h */,
 				267054A7173CE43500DE510A /* Rosaniline.h */,
-				267054A8173CE43500DE510A /* RosaniDataStructure.h */,
 				267054A9173CE43500DE510A /* RosaniTools.h */,
 				267054AA173CE43500DE510A /* RosaniDisplay.cpp */,
 				267054AB173CE43500DE510A /* RosaniPatchTools.h */,
 				267054AC173CE43500DE510A /* RosaniTools.cpp */,
 				267054AD173CE43500DE510A /* RosaniPatchTools.cpp */,
+				267054A8173CE43500DE510A /* RosaniDataStructure.h */,
 				267054AE173CE43500DE510A /* RosaniDataStructure.cpp */,
 				267054AF173CE43500DE510A /* RosaniDraw.h */,
 				267054B0173CE43500DE510A /* RosaniDraw.cpp */,
@@ -244,6 +253,7 @@
 				267054B4173CE43500DE510A /* RosaniDataStructure.cpp in Sources */,
 				267054B5173CE43500DE510A /* RosaniDraw.cpp in Sources */,
 				267054B8173CE44400DE510A /* GeneralizedPatchMatch.cpp in Sources */,
+				263C9EFC173DF86C00930883 /* offsetElement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +322,7 @@
 		26366E55173CE37C00D0AB18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_OPENMP_SUPPORT = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = /opt/local/include;
 				LIBRARY_SEARCH_PATHS = (
@@ -325,6 +336,7 @@
 		26366E56173CE37C00D0AB18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_OPENMP_SUPPORT = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = /opt/local/include;
 				LIBRARY_SEARCH_PATHS = (
